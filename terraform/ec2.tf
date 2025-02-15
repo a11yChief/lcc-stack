@@ -4,4 +4,8 @@ module "web_server" {
   instance_type = "t4g.nano"
   public_key    = "~/.ssh/id_ed25519.pub"
   subnet_id     = module.vpc.public_subnets[0].id
+
+  depends_on = [
+    module.vpc
+  ]
 }
