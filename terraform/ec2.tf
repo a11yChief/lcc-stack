@@ -4,6 +4,7 @@ module "web_server" {
   instance_type = "t4g.nano"
   public_key    = "~/.ssh/id_ed25519.pub"
   subnet_id     = module.vpc.public_subnets[0].id
+  user_data     = file("${path.module}/web-server.sh")
 
   depends_on = [
     module.vpc
