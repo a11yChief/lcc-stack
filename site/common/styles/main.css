@@ -1,9 +1,7 @@
 main {
-  background-color: #f9f9f9;
-  padding: 20px;
+  background-color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
   margin: 0 auto;
-  max-width: 800px;
-  font-family: 'Arial', sans-serif;
 }
 
 main h1,
@@ -12,42 +10,36 @@ main h3,
 main h4,
 main h5,
 main h6 {
-  color: #000000;
-  margin-bottom: 1rem; /* spacing after headings */
-}
-
-main p {
-  color: #000000;
-  line-height: 1.6;   /* improve readability */
-  margin-bottom: 1rem; /* spacing between paragraphs */
-}
-
-/* Images within main */
-main img {
-  max-width: 100%; /* ensure images don't exceed container */
-  height: auto;
-  display: block;
-  margin: 0 auto;  /* center images */
-}
-
-/* Links within main */
-main a {
-  color: #007acc; /* adjust link color */
-  text-decoration: none;
-}
-
-main a:hover {
-  text-decoration: underline;
-}
-
-/* Lists within main */
-main ul,
-main ol {
-  margin-left: 1.5rem;  /* indent lists */
   margin-bottom: 1rem;
 }
 
-/* Tables within main */
+main p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+main a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+/* main a:hover {
+  text-decoration: underline;
+} */
+
+main ul,
+main ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
 main table {
   width: 100%;
   border-collapse: collapse;
@@ -61,11 +53,11 @@ main table td {
 }
 
 main table th {
-  background-color: #f2f2f2; /* header background */
+  background-color: #f2f2f2;
+  /* header background */
   text-align: left;
 }
 
-/* Blockquotes within main */
 main blockquote {
   border-left: 4px solid #ccc;
   padding-left: 1rem;
@@ -73,7 +65,6 @@ main blockquote {
   color: #666;
 }
 
-/* Forms within main */
 main form {
   display: flex;
   flex-direction: column;
@@ -88,8 +79,18 @@ main form select {
   border-radius: 4px;
 }
 
-/* Utility spacing classes for main content */
-main .mb-1 { margin-bottom: 1rem; }
-main .mt-1 { margin-top: 1rem; }
-main .mr-1 { margin-right: 1rem; }
-main .ml-1 { margin-left: 1rem; }
+main .mb-1 {
+  margin-bottom: 1rem;
+}
+
+main .mt-1 {
+  margin-top: 1rem;
+}
+
+main .mr-1 {
+  margin-right: 1rem;
+}
+
+main .ml-1 {
+  margin-left: 1rem;
+}
