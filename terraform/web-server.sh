@@ -16,14 +16,10 @@ sudo suseconnect -p PackageHub/15.6/aarch64
 echo_bold "Registering Legacy Software Repository"
 sudo suseconnect -p sle-module-legacy/15.6/aarch64
 
-echo_bold "Adding default users"
-sudo useradd -mUG wheel richard
-sudo useradd -mUG wheel phil
-
 echo_bold "Installing security packages"
 sudo zypper in -y fail2ban aide rkhunter lynis
 
-# Add ssh jail to fail2ban
+# Add ssh jail to fail2ba
 
 echo_bold "installing AppArmor pattern"
 sudo zypper in -y -t pattern apparmor 
@@ -32,13 +28,16 @@ echo_bold "Installing nginx"
 sudo zypper in -y nginx
 
 echo_bold "Enabling nginx, will start after reboot."
-sudo enable nginx
+sudo systemctl enable nginx
 
 echo_bold "Installing Certbot"
 sudo zypper in -y certbot python-certbot-nginx
 
 echo_bold "Installing administration software"
 sudo zypper in -y nano tmux nload ncdu
+
+echo_bold "Copying pages from s3 bucket"
+sudo aws s3 sync s3://lcc-website-bucket/ /srv/www/htdocs
 
 echo_bold "Upgrading all system packages"
 sudo zypper dup -y
