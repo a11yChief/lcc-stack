@@ -3,12 +3,39 @@
   color: #FFFFFF;
 }
 
-.feature-dark {
+.section-dark {
   background: #222222;
   color: #FFFFFF;
 }
 
-.feature-light {
+.section-light {
   background: #FFFFFF;
   color: #000000;
+}
+
+.feature-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 100px;
+  max-height: 50vh;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.large-feature {
+  max-width: 60%;
+  font-size: 2rem;
+}
+
+.large-feature h1 {
+  font-weight: 300;
+
+}
+
+.large-feature p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 4rem;
 }

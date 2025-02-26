@@ -1,9 +1,13 @@
 .hero {
-  background-size: 180%;
-  background-image: linear-gradient(38deg, black, transparent), url('/common/images/placeholder-hero.webp');
-  background-position: 15% center;
-  background-color: rgba(165, 42, 42, 0.5);
-  background-blend-mode: overlay;
+  background-image:
+    linear-gradient(140deg, black, transparent),
+    linear-gradient(#FFBD21, #FFBD21),
+    url('/common/images/placeholder-hero.webp');
+  background-size: 100%, 100%, 180%;
+  background-position: center, center, 15% center;
+  background-blend-mode:
+    darken,
+    overlay;
   color: #FFFFFF;
 }
 
@@ -19,7 +23,7 @@
 }
 
 .hero-content {
-  max-width: 66%;
+  max-width: 60%;
   font-size: 2rem;
 }
 
@@ -48,4 +52,5 @@
 
 .hero-cta:hover {
   background-color: #0056b3;
+  ;
 }

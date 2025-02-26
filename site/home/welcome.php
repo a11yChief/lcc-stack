@@ -4,6 +4,10 @@
     <p>
       We're glad you've found us. And no matter your skill level, we're happy to have you.
     </p>
-    <a href="#" class="hero-cta">Join Us</a>
+    <p>
+      <a href="#" class="hero-cta">
+        Join Us
+      </a>
+    </p>
   </div>
 </div>
