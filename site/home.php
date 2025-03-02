@@ -8,10 +8,10 @@
     <section class="hero">
       <?php include $_SERVER['DOCUMENT_ROOT'] . '/home/welcome.php'; ?>
     </section>
-    <section class="section-dark">
+    <section class="section-light">
       <?php include $_SERVER['DOCUMENT_ROOT'] . '/home/inclusive.php'; ?>
     </section>
-    <section class="section-gold">
+    <section class="section-light">
       <?php include $_SERVER['DOCUMENT_ROOT'] . '/home/opportunities.php'; ?>
     </section>
   </main>

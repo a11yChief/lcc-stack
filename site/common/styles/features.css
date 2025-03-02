@@ -1,5 +1,5 @@
 .section-gold {
-  background: #785700;
+  background: #643100;
   color: #FFFFFF;
 }
 
@@ -25,17 +25,21 @@
 }
 
 .large-feature {
-  max-width: 60%;
+  max-width: 100%;
   font-size: 2rem;
-}
-
-.large-feature h1 {
-  font-weight: 300;
-
 }
 
 .large-feature p {
   font-size: 1.5rem;
-  margin-bottom: 1rem;
-  padding-bottom: 4rem;
+  margin-bottom: 0rem;
+  padding-bottom: 1rem;
+}
+
+.small-feature {
+  max-width: 34%;
+  font-size: 1.5rem;
+}
+
+.small-feature p {
+  font-size: 1rem;
 }

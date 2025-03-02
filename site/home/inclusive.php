@@ -1,4 +1,4 @@
-<div class="hero-container">
+<div class="feature-container">
   <div class="large-feature">
     <h2>We believe chess is for everyone</h2>
     <p>

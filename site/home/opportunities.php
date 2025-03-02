@@ -1,6 +1,6 @@
-<div class="hero-container">
-<div class="hero-content">
-          <h2>Competitions </h2>
+<div class="feature-container">
+<div class="small-feature">
+          <h3>Competitions </h3>
           <p>
             If you’re interested in competing, why not join one of our five teams? Each team caters to a different
             skill
