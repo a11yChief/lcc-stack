@@ -4,8 +4,8 @@
 
 <body>
   <?php include $_SERVER['DOCUMENT_ROOT'] . '/common/header.php'; ?>
-  <main>
-    <section class="hero container-fluid text-light">
+  <main>-=
+    <section class="hero container-fluid">
       <?php include $_SERVER['DOCUMENT_ROOT'] . '/home/welcome.php'; ?>
     </section>
     <section class="section-light">
