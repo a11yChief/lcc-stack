@@ -4,7 +4,7 @@
 
 <body>
   <?php include $_SERVER['DOCUMENT_ROOT'] . '/common/header.php'; ?>
-  <main>-=
+  <main>
     <section class="hero container-fluid">
       <?php include $_SERVER['DOCUMENT_ROOT'] . '/home/welcome.php'; ?>
     </section>
