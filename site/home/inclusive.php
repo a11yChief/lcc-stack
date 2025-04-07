@@ -1,4 +1,3 @@
-   <div>
      <div class="row justify-content-center">
        <div class="col-12 col-md-6 col-xl-3">
          <h2>We believe chess is for everyone</h2>
@@ -14,5 +13,4 @@
        <div class="col-12 col-md-6 col-xl-3">
          <image src="/common/images/IMG_9575.JPG">
        </div>
-     </div>
-   </div>
+    </div>
