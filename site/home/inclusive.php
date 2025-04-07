@@ -1,4 +1,4 @@
-     <div class="row justify-content-center px-2 pb-4" style="padding-top: 7rem;">
+     <div class="row justify-content-center px-2 mb-5" style="padding-top: 7rem;">
        <div class="col-12 col-md-6 col-xl-3">
          <h2 class="fs-2">We believe chess is for everyone</h2>
           <p>
