@@ -2,13 +2,13 @@
   background-image:
     linear-gradient(140deg, black, transparent),
     linear-gradient(#FFBD21, #FFBD21),
-    url('/common/images/placeholder-hero.webp');
+    url('/common/images/IMG_9569.JPG');
   background-size: 100%, 100%, 180%;
   background-position: center, center, 15% center;
   background-blend-mode:
     darken,
     overlay;
-  color: #FFFFFF;
+    min-height: 30vh
 }
 
 .hero-container {

@@ -5,7 +5,7 @@
 <body>
   <?php include $_SERVER['DOCUMENT_ROOT'] . '/common/header.php'; ?>
   <main>
-    <section class="hero" "container-sm">
+    <section class="hero container-fluid text-light">
       <?php include $_SERVER['DOCUMENT_ROOT'] . '/home/welcome.php'; ?>
     </section>
     <section class="section-light">
