@@ -11,21 +11,21 @@
 </div>
 <div class="row justify-content-center px-2 gap-4">
 <div class="col-12 col-md-2">
-            <h3>Competition 1</h3>
+            <h3>Blackpool & Fylde Chess League</h3>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pulvinar consectetur urna vitae auctor. Aenean rhoncus nulla molestie enim fermentum ornare. Maecenas at justo faucibus, elementum elit a, mattis arcu. Nunc lacinia quam orci, ac vulputate metus efficitur vel. In sed pulvinar turpis, sit amet viverra augue. Morbi eleifend neque. 
+Our teams compete annually in all three divisions of the Blackpool & Fylde League, as well as the various cup competitions including The Challenge Cup, The Rapid Play Cup, and the Blackpool & Fylde Individual Championship.
 </p>
 </div>
 <div class="col-12 col-md-2">
-  <h3>Competition 2 </h3>
+  <h3>Lytham Individual Championships</h3>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pulvinar consectetur urna vitae auctor. Aenean rhoncus nulla molestie enim fermentum ornare. Maecenas at justo faucibus, elementum elit a, mattis arcu. Nunc lacinia quam orci, ac vulputate metus efficitur vel. In sed pulvinar turpis, sit amet viverra augue. Morbi eleifend neque. 
+            Club members have the opportunity to play in both The Individual Championship and The Summer Tournament, facing players within Lytham Chess Club. 
           </p>
 </div>
 <div class="col-12 col-md-2">
-  <h3>Competition 3 </h3>
+  <h3>Social Play </h3>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pulvinar consectetur urna vitae auctor. Aenean rhoncus nulla molestie enim fermentum ornare. Maecenas at justo faucibus, elementum elit a, mattis arcu. Nunc lacinia quam orci, ac vulputate metus efficitur vel. In sed pulvinar turpis, sit amet viverra augue. Morbi eleifend neque. 
+            If you don't want to get involved with championships, or feel you need to ease yourself in before piling on the pressure, everyone at the club will be willing to give you a friendly game.
           </p>
 </div>
 </div>
