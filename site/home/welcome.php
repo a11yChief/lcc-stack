@@ -4,8 +4,8 @@
                   <p class="fs-3 text-light">
               We're glad you've found us. And no matter your skill level, we're happy to have you.
                   </p>
-                  <a href="#" class="btn bg-primary text-white">
-              Join Us
+                  <a href="mailto:philipraynor@googlemail.com?subject=LCC%20Site%20Enquiry" class="btn bg-primary text-white">
+              Email Us
             </a>
   </div>      
 </div>

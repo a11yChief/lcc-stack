@@ -16,13 +16,14 @@
   <p>
   Our teams compete annually in all three divisions of the Blackpool & Fylde League, as well as the various cup competitions including The Challenge Cup, The Rapid Play Cup, and the Blackpool & Fylde Individual Championship.
   </p>
-  <a href="#" class="btn bg-primary  text-light">See Our Latest Games</a>
+  <a href="https://lms.englishchess.org.uk/lms/organisation/430" class="btn bg-primary  text-light">See Our Latest Games</a>
   </div>
   <div class="col-12 col-md-4">
     <h3>Lytham Individual Championships</h3>
               <p>
               Club members have the opportunity to play in both The Individual Championship and The Summer Tournament, facing players within Lytham Chess Club.
             </p>
+            <a href="https://lms.englishchess.org.uk/lms/event/6333/rounds" class="btn bg-primary  text-light">See Our Latest Games</a>
   </div>
   <div class="col-12 col-md-4">
     <h3>Social Play </h3>
