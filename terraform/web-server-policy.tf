@@ -1,6 +1,6 @@
-resource "aws_iam_role_policy" "s3_read_write_policy" {
-  name = "S3ReadWritePolicy"
-  role = module.web_server.instance_role.id
+resource "aws_iam_role_policy" "lcc_web" {
+  name = "lcc-web-policy"
+  role = module.lcc_web.instance_role.id
 
   policy = <<EOF
 {

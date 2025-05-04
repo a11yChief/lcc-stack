@@ -1,7 +1,7 @@
-module "vpc" {
-  source                      = "github.com/welcome-ally-ltd/aws-vpc?ref=v1.5"
-  environment_name            = "lcc"
-  ipv4_cidr_block             = "10.1.0.0/16"
-  subnet_count                = 2
+module "lcc" {
+  source                      = "github.com/welcome-ally-ltd/aws-vpc-small?ref=v0"
+  environment_name            = "lcc-small"
+  ipv4_cidr_block             = "10.2.0.0/16"
+  subnet_count                = 1
   interface_endpoint_services = []
 }
